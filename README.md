@@ -1,3 +1,4 @@
+# Install
 ```bash
 $ sudo apt install wkhtmltopdf
 $ python3 -m pip3 install imgkit bs4 requests
@@ -17,5 +18,5 @@ Preview
 >>> out=readme("https://github.com/krypton-byte/krypton-byte")
 >>> Image.open(out).show()
 ```
-<h2>#Preview</h2>
+# Preview
 <img src="out.png">
