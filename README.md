@@ -2,10 +2,10 @@
 ```bash
 $ sudo apt install wkhtmltopdf
 $ python3 -m pip3 install imgkit bs4 requests
-$ python3
+$ python3 -m pip3 install github_markdown2image
 ```
 ```python
->>> from Github_Markdown_render import readme
+>>> from github_markdown2image import readme
 >>> readme("https://github.com/krypton-byte/krypton-byte")
 
 OR
